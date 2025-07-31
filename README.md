@@ -32,8 +32,8 @@ Features
 
 Installation
 1.	Clone the repository:
-2.	git clone https://github.com/yourusername/certificate-verification.git
-cd certificate-verification
+2.	git clone https://github.com/Nhimana/certificate_blockchain.git
+cd certificate_blockchain
 
 3.	Install dependencies:
 npm install
