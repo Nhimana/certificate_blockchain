@@ -33,12 +33,13 @@ Features
 Installation
 1.	Clone the repository:
 2.	git clone https://github.com/Nhimana/certificate_blockchain.git
-cd certificate_blockchain
+3.  cd certificate_blockchain
 
-3.	Install dependencies:
+4.	Install dependencies:
 npm install
-4.	Compile the smart contract:
+5.	Compile the smart contract:
 npx hardhat compile
+6.npx hardhat run scripts/deploy.js --network localhost
 Usage
 Register Institution
 Only DEFAULT_ADMIN_ROLE (usually the contract deployer) can register institutions.
