@@ -38,9 +38,9 @@ Installation
 4.	Install dependencies:
 npm install
 5.	Compile the smart contract:
-npx hardhat compile
-6.npx hardhat run scripts/deploy.js --network localhost
-Usage
+6.  npx hardhat compile
+7.npx hardhat run scripts/deploy.js --network localhost
+8. Usage
 Register Institution
 Only DEFAULT_ADMIN_ROLE (usually the contract deployer) can register institutions.
 function registerInstitution(
